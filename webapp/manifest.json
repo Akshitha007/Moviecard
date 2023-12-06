@@ -1,7 +1,7 @@
 {
   "_version": "1.59.0",
   "sap.app": {
-    "id": "aevins",
+    "id": "moviecard",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -71,7 +71,7 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "aevins.view",
+        "viewPath": "moviecard.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false
@@ -96,7 +96,7 @@
       }
     },
     "rootView": {
-      "viewName": "aevins.view.App",
+      "viewName": "moviecard.view.App",
       "type": "XML",
       "async": true,
       "id": "App"

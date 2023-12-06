@@ -7,7 +7,7 @@ sap.ui.define([
     function (Controller) {
         "use strict";
 
-        return Controller.extend("aevins.controller.View1", {
+        return Controller.extend("moviecard.controller.View1", {
             onInit: function () {
 
             }

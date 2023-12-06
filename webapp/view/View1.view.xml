@@ -1,4 +1,4 @@
-<mvc:View controllerName="aevins.controller.View1"
+<mvc:View controllerName="moviecard.controller.View1"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m"
     xmlns:book="aevins.controls">

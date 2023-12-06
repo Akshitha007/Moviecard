@@ -40,7 +40,7 @@ sap.ui.define([
 								"tileType": "sap.ushell.ui.tile.StaticTile",
 								"properties": {
 									"title": "Assignment7",
-									"targetURL": "#aevins-display"
+									"targetURL": "#moviecard-display"
 								}
 							}]
 						}]
@@ -62,7 +62,7 @@ sap.ui.define([
 								"resolutionResult": {
 									"applicationType": "SAPUI5",
 									"additionalInformation": "SAPUI5.Component=aevins",
-									"url": sap.ui.require.toUrl("aevins")
+									"url": sap.ui.require.toUrl("moviecard")
 								}
 							}
 						}

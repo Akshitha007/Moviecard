@@ -11,7 +11,7 @@ sap.ui.define(
   function (Control, Button, Image, Link, Text) {
     "use strict";
 
-    var MovieCard = Control.extend("aevins.controls.MovieCard", {
+    var MovieCard = Control.extend("moviecard.controls.MovieCard", {
       // the control API:
       metadata: {
         properties: {
@@ -53,7 +53,7 @@ sap.ui.define(
 
         associations: {
           relatedBooks: {
-            type: "aevins.controls.Book",
+            type: "moviecard.controls.Book",
             multiple: true,
             singularName: "relatedBook",
           },
@@ -174,7 +174,7 @@ sap.ui.define(
     });
 
     //overwrite setter
-    aevins.controls.MovieCard.prototype.setCoverPictureUrl = function (sVal) {
+    moviecard.controls.MovieCard.prototype.setCoverPictureUrl = function (sVal) {
       if (sVal) {
         this.setProperty("coverPictureUrl", sVal, /*suppressInvalidate*/ true); //do not re-render
         this.getCoverPicture().setSrc(sVal);
